@@ -1,0 +1,146 @@
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto; 
+    /* Center the DIV horizontally */
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    margin-left: -8px;
+    height: 50px;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+.container p{
+    line-height: 200px; /* Create scrollbar to test positioning */
+}
+.header-link{
+    float:left;
+    margin:10px;    
+    display: flex;
+}
+
+.header-search{
+    float: right;
+    margin:10px;  
+    
+}
+
+.search-user{
+    height: 20px;
+    border-radius: 5px;
+}
+
+.color-fg-default{
+    color: #fff;
+}
+
+.home-link{
+    margin: 8px;
+}
+
+img {
+    border-radius: 50%;
+    height:150px;
+    width: 150px;
+}
+
+.card{
+    margin: 10px;
+    height: 200px;
+    width: 190px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.m-10 
+{
+    margin: 10px;
+}
+
+.m-5 
+{
+    margin: 5px;
+}
+
+.p-20
+{
+    padding: 20px;
+}
+
+.pb-20
+{
+    padding-bottom: 20px;
+}
+
+.mr-5
+{
+    margin-right: 5px;
+}
+
+.icon-custom{
+    height: 15px;
+    width: 15px;
+}
+
+.float-left
+{
+    float:left;
+}
+
+.float-right
+{
+    float:right;
+}
+
+.icon-back{
+    height: 30px;
+    width: 30px;
+}
+
+.home-link > a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.username > a{
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.github {
+    text-decoration: none;
+}
+
+.user-not-found{
+    height: 50px;
+    width: 200px;
+    border-radius: 0% !important;
+}

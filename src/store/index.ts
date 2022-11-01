@@ -2,13 +2,16 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-  },
-  getters: {
+    searchKey: ''
   },
   mutations: {
+    search(state, payload) {
+      return state.searchKey = payload.search;
+    },
   },
   actions: {
+    search(context, payload) {
+      context.commit('search', payload)
+    },
   },
-  modules: {
-  }
 })
